@@ -13,5 +13,7 @@ public interface Country
   }
 
   protected String GetName();
-  protected void CheckLegality(uint age);
+
+  protected void CheckPublicLegality(uint age);
+
 }
